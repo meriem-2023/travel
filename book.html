@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./public/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="nav">
+            <div class="logo">
+               <div><i class="fa-solid fa-plane-departure planeicon"></i><span><B>T</B>ravel</span></div>
+            </div>
+            <DIV class="menu">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="index.html">GALLERY</a></li>
+                <li><a href="details.html">SERVICES</a></li>
+                <li><a href="book.html">BOOK</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+              </ul>
+            </DIV>
+        </div>
+        <div class="home" id="home">
+            <div class="content">
+               <h3>Welcome to Word</h3>
+               <p>Dicover new places with Travel, Adventure Awants</p>
+               <div class="Dicover"><a href="#">Discover more</a></div>
+            </div>
+            <div class="controls">
+                  <span class="vid-btn active" data-src="./public/images/vid-1.mp4"></span>
+                  <span class="vid-btn" data-src="./public/images/vid-2.mp4"></span>
+                  <span class="vid-btn" data-src="./public/images/vid-3.mp4"></span>
+                  <span class="vid-btn" data-src="./public/images/vid-4.mp4"></span>
+                  <span class="vid-btn" data-src="./public/images/vid-5.mp4"></span>
+            </div>
+            <div class="video-container">
+                  <video src="./public/images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+           </div>
+        </div>
+        <div class="book">
+          <h2>BOOK NOW</h2>
+          <div class="card-book">
+             <div class="text">
+               <form autocomplete="on">
+                <table>
+                  <tr><td><input type="e-mail" placeholder="e-mail" required ></td></tr>
+                  <tr><td><input type="password" placeholder="password" required ></td></tr>
+                  <tr><td><input type="tel" placeholder="phone" required ></td></tr>
+                  <tr><td><input type="text" placeholder="Where to" id="cont" required ></td></tr>
+                  <tr><td><input type="number" placeholder="how money" id="mon" required ></td></tr>
+                  <tr><td><input type="date" class="date" id="dat" required ></td></tr>
+                  <tr><td><button type="submit" onclick= "javascript: get();">submit</button></td></tr>
+                </table>
+               </form>
+  
+              </div>
+              <div class="image">
+                   <img src="./public/images/peppeers.jpg" />
+              </div>
+          </div>
+        </div>
+        <div class="footer" id="footer">
+          <div class="footer-logo">
+            <div class="logo">
+              <i class="fa-solid fa-plane-departure planeicon"></i><span><B>T</B>ravel</span>
+           </div>
+           <div class="info">
+              <a href="#">aitmeriem23@gmail.com</a>
+              <h3>+212762047578</h3>
+           </div>
+          </div>
+          <div class="contact-info">
+             <h2>Contact info</h2>
+             <div>
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook placeicon" ></i></a><span>facebook</span></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram placeicon"></i></a><span>instagram</span></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter placeicon"></i></a><span>twiter</span></li>
+                  <li><a href="#"><i class="fa-brands fa-whatsapp placeicon"></i></a><span>whatsapp</span></li>
+                </ul>
+             </div>
+          </div>
+          <div class="quik-links">
+            <h2>Quick links</h2>
+            <div>
+               <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="index.html">ABOUT</a></li>
+                 <li><a href="index.html">GALLERY</a></li>
+                 <li><a href="details.html">SERVICES</a></li>
+                 <li><a href="#book">BOOK</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+               </ul>
+            </div>
+          </div>
+          <div class="contact-us">
+             <h2>Conatct us</h2>
+             <div>
+               <form autocomplete="on">
+                  <table>
+                    <tr><td><input type="tel" placeholder="phone" /></td></tr>
+                    <tr><td><input type="e-mail" placeholder="e-mail" /></td></tr>
+                    <tr><td><input type="password" placeholder="password" /></td></tr>
+                    <tr><td><textarea cols="21" rows="3" placeholder="send message" ></textarea></td></tr>
+                     <tr><td><button  type="submit" onclick="javascript:get();" >submit</button></td></tr>
+                </table>
+              </form>
+             </div>
+          </div>
+       </div>
+        </div>
+</body>
+</html>
